@@ -7,11 +7,11 @@
 
 ```powershell
 # Run as administrator
-choco install fafarunner --version="1.0.0-rc320" --prerelease --source .
+choco install fafarunner --version="1.0.0-rc335" --prerelease --source .
 ```
 
 ```powershell
 choco apikey --api-key [API_KEY_HERE] -source https://push.chocolatey.org/
 
-choco push fafarunner.1.0.0-rc320.nupkg --source https://push.chocolatey.org/
+choco push fafarunner.1.0.0-rc335.nupkg --source https://push.chocolatey.org/
 ```
