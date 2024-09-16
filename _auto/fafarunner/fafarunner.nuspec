@@ -35,7 +35,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>FaFa Runner</title>
-    <authors>kjxbyz</authors>
+    <authors>Insco LLC</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.fafarunner.com</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
@@ -54,9 +54,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <description>
       # FaFa Runner
 
-      [![Publish](https://github.com/fafarunner/choco-fafarunner/actions/workflows/publish.yml/badge.svg)](https://github.com/fafarunner/choco-fafarunner/actions/workflows/publish.yml)[![Chocolatey Version](https://img.shields.io/chocolatey/v/fafarunner)](https://community.chocolatey.org/packages/fafarunner)[![GitHub License](https://img.shields.io/github/license/fafarunner/fafarunner)](https://github.com/fafarunner/fafarunner/blob/main/LICENSE)
+      [![Auto update](https://github.com/fafarunner/choco-fafarunner/actions/workflows/autoupdate_all.yml/badge.svg)](https://github.com/fafarunner/choco-fafarunner/actions/workflows/autoupdate_all.yml)
     
-      > A game developed using flame and bonfire.
+      &gt; A game developed using flame and bonfire.
     </description>
     <releaseNotes>
       [CHANGELOG](https://github.com/fafarunner/fafarunner/blob/main/CHANGELOG.md)
@@ -80,6 +80,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

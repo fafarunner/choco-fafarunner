@@ -1,4 +1,4 @@
-
+﻿
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url64      = 'https://github.com/fafarunner/fafarunner/releases/download/v1.0.0%2B335/fafarunner_1.0.0+335_windows_x64.exe'
@@ -18,7 +18,7 @@ $packageArgs = @{
 
   softwareName  = 'fafarunner*'
 
-  checksum64    = '01712C545C77399C63E6FEB64F94653E6F8CC92B5BE2CF8575C6C4A1294CA2B3'
+  checksum64    = '01712c545c77399c63e6feb64f94653e6f8cc92b5be2cf8575c6c4a1294ca2b3'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
